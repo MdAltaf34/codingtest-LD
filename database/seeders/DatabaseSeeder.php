@@ -28,6 +28,6 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('admin@admin.com'), // Password is same as email
         ]);
 
-        User::factory()->count(20)->create();
+        User::factory()->count(120)->create();
     }
 }
